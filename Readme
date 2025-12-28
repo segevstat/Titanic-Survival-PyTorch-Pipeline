@@ -1,29 +1,22 @@
-## Project Overview
+## 🚀 **Project Overview**
 
-> This repository presents my complete solution to the **ELTA Data Analyst Home Task**,  
-> demonstrating strong analytical thinking, structured problem-solving, and the ability  
-> to extract meaningful business insights from raw data.
+> **Complete solution for the ELTA Data Analyst Home Task** — demonstrating  
+> **analytical thinking**, **structured problem-solving**, and **business-driven insights**.
 
-Throughout this project I showcase the **full analytical lifecycle** — from raw data to **actionable conclusions**.
+**From raw data → to actionable conclusions.**
 
 ---
 
-## What’s Inside?
+## 🔍 **What’s Inside?**
 
-###  Data Exploration & Cleaning
-- Understanding the dataset structure  
-- Handling missing values  
-- Fixing inconsistencies and preparing clean, reliable data
+### 🧹 **Data Cleaning**
+- Fixing missing values & inconsistencies
 
-###  Feature Engineering
-- Creating new meaningful features  
-- Enhancing analytical depth and business relevance
+### 🧠 **Feature Engineering**
+- Creating meaningful new features
 
-###  Analytical Reasoning
-- Identifying trends, patterns, and anomalies  
-- Applying statistical thinking for accurate conclusions
+### 📈 **Analysis**
+- Detecting trends, patterns & anomalies
 
-### Business Insights
-- Translating numbers into clear business stories  
-- Producing insights that support real decision-making
-
+### 💡 **Business Insights**
+- Turning numbers into decisions
