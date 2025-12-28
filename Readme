@@ -1,16 +1,22 @@
-**ELTA – Data Analyst Home Task**
+# ELTA – Data Analyst Home Task
 
-Project Overview
+## Project Overview
 
-This repository contains my solution for the ELTA Data Analyst Home Task.
-The goal of this assignment is to demonstrate data analysis skills, including:
+This repository presents my complete solution to the **ELTA Data Analyst Home Task**, designed to showcase strong analytical thinking, structured problem-solving, and the ability to extract meaningful business insights from raw data.
 
-Data exploration and cleaning
+Throughout this project I demonstrate the full analytical workflow — from raw data to actionable conclusions.
 
-Feature engineering
 
-Analytical thinking
+- **Data Exploration & Cleaning**  
+  Understanding the dataset, handling missing values, fixing inconsistencies and preparing the data for analysis.
 
-Drawing business insights from raw datasets
+- **Feature Engineering**  
+  Creating new meaningful features that improve analytical depth and business relevance.
 
-All analysis was performed using Python in Jupyter Notebook.
+- **Analytical Reasoning**  
+  Applying statistical thinking to identify trends, patterns and anomalies.
+
+- **Business Insights**  
+  Translating numbers into clear insights that can support real decision-making.
+
+All analysis was performed using **Python in Jupyter Notebook**, following clean, readable and reproducible practices.
