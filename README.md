@@ -76,19 +76,31 @@ Your local browser will be open and show  the first screen in the above "Dashboa
 
 
 
-5. ## Project Structure
+## Project Structure
    
 
-   *ds_app.py:* The main Streamlit application for the dashboard and inference.
+   *ds_app.py:*
+
+   The main Streamlit application for the dashboard and inference.
    
    
-   *train.py:* Standalone script for training the PyTorch model and saving weights.
+   *train.py:*
+   
+   Standalone script for training the PyTorch model and saving weights.
    
    
-   *model_utils.py:* Core logic including the Neural Network class and data processing.
+   *model_utils.py:* 
    
-   *Data_Science_Home_Assignment_Segev_Ohana.ipynb:* Comprehensive EDA and data insights.
+   Core logic including the Neural Network class and data processing.
    
-   *requirements.txt:* List of all necessary Python packages.
+   *Data_Science_Home_Assignment_Segev_Ohana.ipynb:* 
    
-   *run_app_script.bat:* Quick-start batch file for Windows users.
+   Comprehensive EDA and data insights.
+   
+   *requirements.txt:* 
+   
+   List of all necessary Python packages.
+   
+   *run_app_script.bat:* 
+   
+   Quick-start batch file for Windows users.
