@@ -1,22 +1,24 @@
-## 🚀 **Project Overview**
+Titanic Survival Prediction - End-to-End PyTorch Pipeline
 
-> **Complete solution for the ELTA Data Analyst Home Task** — demonstrating  
-> **analytical thinking**, **structured problem-solving**, and **business-driven insights**.
 
-**From raw data → to actionable conclusions.**
+This project implements a complete machine learning pipeline to predict Titanic passenger survival using a Deep Learning approach with PyTorch. 
 
----
+The solution includes data fetching from Kaggle, Exploratory Data Analysis (EDA), a standalone training script, and an interactive Streamlit dashboard for inference and visualization.
 
-## 🔍 **What’s Inside?**
 
-### 🧹 **Data Cleaning**
-- Fixing missing values & inconsistencies
 
-### 🧠 **Feature Engineering**
-- Creating meaningful new features
+Project Structure
 
-### 📈 **Analysis**
-- Detecting trends, patterns & anomalies
 
-### 💡 **Business Insights**
-- Turning numbers into decisions
+├── .env                  # Your private Kaggle credentials (not tracked by Git)
+├── .env.example          # Template for environment variables
+├── .gitignore            # Files to ignore (including .env and model artifacts)
+├── ds_app.py             # Streamlit Inference UI
+├── train.py              # Standalone training script
+├── model_utils.py        # Utility functions: Data cleaning, NN architecture
+├── Data_Science_Home_Assignment_Segev_Ohana.ipynb     # Jupyter Notebook for Exploratory Data Analysis
+├── requirements.txt      # Project dependencies
+├── run_app_script.bat    # Batch file to run the full pipeline
+└── README.md             # Project documentation
+
+
