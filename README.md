@@ -1,110 +1,73 @@
-# Data Science Home Assignment
+# Titanic Survival Prediction: End-to-End PyTorch Pipeline
 
-You are given 1 day to complete this assessment.
+An end-to-end Deep Learning pipeline for survival prediction, featuring a custom PyTorch neural network and an interactive Streamlit dashboard for real-time inference and evaluation.
 
-The task is a **Data Science Task – Classification Model**
-
-The task will be based on the **[Titanic dataset from Kaggle](https://www.kaggle.com/competitions/titanic/data)**.
-
-**Important:** Use **only `train.csv`** from Kaggle. Do **not** use `test.csv` or `gender_submission.csv`. Create your own **train/validation split** from `train.csv` for evaluation.
-
-
-
+## Features
+* **Full ML Pipeline:** Automated data fetching, preprocessing, training, and deployment.
+* **Deep Learning:** Custom Neural Network architecture built with PyTorch.
+* **Interactive Dashboard:** Live inference UI for testing new data and viewing metrics.
+* **Detailed EDA:** Exploratory Data Analysis documented in a Jupyter Notebook.
 
 ---
 
-## Classification Task
-
-### Task
-
-Build an end-to-end **classification pipeline** to predict Titanic passenger survival.
-
-
-### Requirements
-
-* Fetch the **Titanic dataset** directly from Kaggle in your code.
-
-* Load **only `train.csv`** and split it into **train/validation** sets.
-
-
-* Perform **exploratory data analysis (EDA)** in a **Jupyter Notebook**.
-
-
-* Apply appropriate **pre-processing** techniques before training.
-
-VVVVVVVVVV
-
-
-* Implement and train a **classification model in PyTorch**.
-
-  * The training process must be implemented in a **standalone Python script** (e.g., `train.py`).
-  * This script should load the data, preprocess it, train the model, and save the trained weights to disk.
-* Evaluate the model on the held-out **validation** split and present the results in **Streamlit**.
-* Create an **inference interface** in Streamlit where the user can:
-
-  * Provide the path to a dataset (CSV).
-  * Load the trained model from disk (produced by your training script).
-  * Run inference and view evaluation results (plots and metrics).
+## Prerequisites: Kaggle API Token
+To fetch the dataset automatically from Kaggle, you need an API token:
+1. Log in to your [Kaggle](https://www.kaggle.com/) account.
+2. Go to **Settings** -> **API** -> **Create New Token**.
+3. A `kaggle.json` file will be downloaded.
+4. **Note:** The application will prompt you for your Kaggle Username and API Key upon the first run to authenticate the download.
 
 ---
 
-## Evaluation Criteria
+## Setup & Installation
 
-You will be evaluated on:
+1. **Open Anaconda Prompt** (or your preferred terminal).
+2. **Navigate to the project folder:**
+   ```bash
+   cd "path/to/YOUR_PROJECT_PATH"
 
-* Correct dataset fetching and reproducibility.
-* Depth and clarity of EDA.
-* Soundness of pre-processing choices.
-* Correctness and implementation quality of the PyTorch model.
-* Appropriateness of evaluation strategy and clarity of visualizations.
-* Functionality and usability of the inference UI.
-* Clarity and reproducibility of the training script.
+3. **Install dependencies:**
+   pip install -r requirements.txt
 
-### General
+4. **How to Run**
+A batch script is provided to automate the execution of the pipeline:
+In the Anaconda Prompt, run:
+ ```bash
+(base) C:\Users\yourname> 
 
-* Code quality, organization, and documentation.
-* Clear setup and run instructions.
-* Error handling and robustness.
-* Originality and problem-solving approach.
+cd C:\Users\path\...
 
----
+--->
 
-## Submission Guidelines
+"run app script.bat"
+ ```
 
-* Submit your solution via a **GitHub repository** containing:
+ ```bash
+OR
+   (base) C:\Users\yourname> 
+   
+   cd C:\Users\path\...
+   
+   
+   --->
+   
+   python train.py
+   
+   --->
+   
+   streamlit run ds_app.py
+  ```
 
-  * Source code for both parts.
-  * A `data/` folder with a small sample dataset (or link to Titanic dataset on Kaggle).
-  * A `README.md` with:
+5. Project Structure
 
-    * Setup instructions
-    * Installation commands
-    * Run instructions for both apps
-    * Example usage (screenshots recommended)
-    * Short description of your architecture and design choices
+ds_app.py: The main Streamlit application for the dashboard and inference.
 
-### Installation Example
+train.py: Standalone script for training the PyTorch model and saving weights.
 
-```bash
-git clone <your-repo-url>
-cd <your-repo>
-pip install -r requirements.txt
-```
+model_utils.py: Core logic including the Neural Network class and data processing.
 
-### Run Example
+Data_Science_Home_Assignment_Segev_Ohana.ipynb: Comprehensive EDA and data insights.
 
-Train the model:
+requirements.txt: List of all necessary Python packages.
 
-```bash
-python train.py
-```
-
-Run the app:
-
-```bash
-streamlit run ds_app.py
-```
-
----
-
-💡 Good luck! For any questions, feel free to reach out.
+run_app_script.bat: Quick-start batch file for Windows users.
