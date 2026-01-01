@@ -1,0 +1,12 @@
+Needed packages in python:
+
+streamlit
+pandas
+numpy
+torch
+joblib
+plotly
+seaborn
+matplotlib
+python-dotenv
+scikit-learn
