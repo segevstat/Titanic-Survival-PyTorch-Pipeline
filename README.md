@@ -74,7 +74,10 @@ OR
 Your local browser will be open and show  the first screen in the above "Dashboard Preview" part
 
 
-5. Project Structure
+
+
+5. ## Project Structure
+   
 
    *ds_app.py:* The main Streamlit application for the dashboard and inference.
    
