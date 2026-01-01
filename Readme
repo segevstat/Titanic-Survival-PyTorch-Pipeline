@@ -1,11 +1,22 @@
-Titanic Survival Prediction - End-to-End PyTorch Pipeline
+#  Titanic Survival Prediction: End-to-End PyTorch Pipeline
 
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
-This project implements a complete machine learning pipeline to predict Titanic passenger survival using a Deep Learning approach with PyTorch. 
+An end-to-end Deep Learning pipeline for the Titanic Kaggle competition, featuring a PyTorch neural network and an interactive Streamlit dashboard.
 
-The solution includes data fetching from Kaggle, Exploratory Data Analysis (EDA), a standalone training script, and an interactive Streamlit dashboard for inference and visualization.
+##  Features
+* **Full Pipeline:** From raw Kaggle data to a deployed model.
+* **Deep Learning:** Custom Neural Network built with PyTorch.
+* **Interactive UI:** Live inference using Streamlit.
+* **EDA:** Detailed analysis in Jupyter Notebook.
 
+## Dashboard Preview
 
+![Dashboard Screenshot](path/to/your/screenshot.png)
+
+## 🏗️ Project Structure
 
 Project Structure
 
