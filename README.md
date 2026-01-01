@@ -10,8 +10,8 @@ An end-to-end Deep Learning pipeline for survival prediction, featuring a custom
 
 ## Dashboard Preview
 
+<img width="1920" height="933" alt="1" src="https://github.com/user-attachments/assets/0ba74377-5cba-4086-adf3-327aedb23110" />
 
-<img width="1920" height="979" alt="1" src="https://github.com/user-attachments/assets/9319ed72-8037-439f-86db-3cadcacc6f54" />
 
 
 <img width="1920" height="888" alt="2" src="https://github.com/user-attachments/assets/dd4d8336-63f3-4ca9-95f0-7e9dae400a43" />
