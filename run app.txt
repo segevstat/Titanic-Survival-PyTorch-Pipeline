@@ -1,29 +1,26 @@
 MANUAL
 
-(base) C:\Users\segev> 
+(base) C:\Users\yourname> 
 
-cd C:\Users\segev\code_notebooks\HTs\IAI_ELT
-
-
-AND THEN
+cd C:\Users\path\...
 
 
- python train.py
+--->
 
-AND THEN
+python train.py
 
+--->
 
 streamlit run ds_app.py
 
 
 
-
 OR
- IN ANACOMNDA PROMPT 
 
+(base) C:\Users\yourname> 
 
-cd C:\Users\segev\code_notebooks\HTs\IAI_ELT
+cd C:\Users\path\...
 
-AND 
+--->
 
 "run app script.bat"
