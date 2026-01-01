@@ -8,7 +8,17 @@ An end-to-end Deep Learning pipeline for survival prediction, featuring a custom
 * **Interactive Dashboard:** Live inference UI for testing new data and viewing metrics.
 * **Detailed EDA:** Exploratory Data Analysis documented in a Jupyter Notebook.
 
----
+## Dashboard Preview
+
+<img width="1920" height="1032" alt="1" src="https://github.com/user-attachments/assets/ff04327b-6313-4e3c-8353-ebb774043c18" />
+
+
+<img width="1920" height="1032" alt="2" src="https://github.com/user-attachments/assets/58d921a2-cc8e-4899-8fef-a654fd1db9e8" />
+
+
+<img width="1920" height="1032" alt="3" src="https://github.com/user-attachments/assets/fc62868d-6b49-4676-b826-cbf1699d84bc" />
+
+
 
 ## Prerequisites: Kaggle API Token
 To fetch the dataset automatically from Kaggle, you need an API token:
