@@ -73,14 +73,16 @@ OR
 
 5. Project Structure
 
-   ds_app.py: The main Streamlit application for the dashboard and inference.
+   *ds_app.py:* The main Streamlit application for the dashboard and inference.
    
-   train.py: Standalone script for training the PyTorch model and saving weights.
    
-   model_utils.py: Core logic including the Neural Network class and data processing.
+   *train.py:* Standalone script for training the PyTorch model and saving weights.
    
-   Data_Science_Home_Assignment_Segev_Ohana.ipynb: Comprehensive EDA and data insights.
    
-   requirements.txt: List of all necessary Python packages.
+   *model_utils.py:* Core logic including the Neural Network class and data processing.
    
-   run_app_script.bat: Quick-start batch file for Windows users.
+   *Data_Science_Home_Assignment_Segev_Ohana.ipynb:* Comprehensive EDA and data insights.
+   
+   *requirements.txt:* List of all necessary Python packages.
+   
+   *run_app_script.bat:* Quick-start batch file for Windows users.
